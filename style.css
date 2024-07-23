@@ -174,3 +174,82 @@ body {
   font-family: sans-serif;
   text-shadow: -6px 6px black;
 }
+
+.slide-content button {
+    background: #1f80e0;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.slide-content button:hover {
+  background: #1f80e0;
+  opacity: 0.8;
+}
+
+.moive-title {
+  padding-left: 50px;
+  text-transform: capitalize;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 20px; /* Adjust this value to position the text where you want it */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center the text horizontally */
+}
+
+.moive-title h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-shadow: -6px 6px black;
+}
+
+.movie-des {
+  width: 80%;
+  line-height: 30px;
+  padding-left: 50px;
+  margin-top: 30px;
+  opacity: 0.8;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.movie-des p {
+  font-size: 10px;
+  font-weight: 400;
+  padding-left: 50px;
+  margin-top: 20px;
+  opacity: 0.8;
+  font-family: sans-serif;
+  text-shadow: -6px 6px black;
+}
+
+.video-card-container {
+  position: relative;
+  width: 92%;
+  margin: auto;
+  height: 10vw;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.video-card {
+  position: relative;
+  min-width: calc(100% / 5 - 10px);
+  width: calc(100% / 5 - 10px);
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #030b17;
+}
+
